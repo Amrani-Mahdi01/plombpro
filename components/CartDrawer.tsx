@@ -6,7 +6,7 @@ import { useLocale, useTranslations } from "next-intl";
 import { AnimatePresence, motion } from "motion/react";
 import { Link } from "@/i18n/navigation";
 import { useCart } from "./CartContext";
-import { X, Plus, Minus, Trash2, ShoppingCart, Truck } from "lucide-react";
+import { Plus, Minus, Trash2, ShoppingCart, Truck } from "lucide-react";
 
 const priceFmt = new Intl.NumberFormat("fr-FR", {
   minimumFractionDigits: 2,
@@ -20,8 +20,7 @@ export function CartDrawer() {
   const locale = useLocale();
   const isRtl = locale === "ar";
 
-  const { items, total, count, isOpen, close, remove, setQty, clear } =
-    useCart();
+  const { items, total, count, isOpen, close, remove, setQty } = useCart();
 
   // Lock body scroll + close on Escape while open.
   useEffect(() => {
@@ -76,10 +75,9 @@ export function CartDrawer() {
               <button
                 type="button"
                 onClick={close}
-                aria-label={t("close")}
-                className="flex h-9 w-9 items-center justify-center border border-white/20 text-white transition-colors hover:bg-amber hover:text-ink"
+                className="flex items-center gap-1.5 border border-white/20 px-3 py-2 text-xs font-bold uppercase tracking-wide text-white transition-colors hover:bg-amber hover:text-ink"
               >
-                <X className="h-5 w-5" />
+                {t("backToSite")}
               </button>
             </div>
 
@@ -192,13 +190,6 @@ export function CartDrawer() {
                   >
                     {t("checkout")}
                   </Link>
-                  <button
-                    type="button"
-                    onClick={clear}
-                    className="mt-2 w-full py-2 text-xs font-semibold uppercase tracking-wide text-steel transition-colors hover:text-sale"
-                  >
-                    {t("clear")}
-                  </button>
                 </div>
               </>
             )}
