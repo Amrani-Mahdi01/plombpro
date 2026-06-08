@@ -474,8 +474,8 @@ export function StorePage() {
           {/* Results */}
           <div>
             <div className="mb-5 border-b border-line pb-4">
-              {/* Toolbar: filters + sort (right-aligned) */}
-              <div className="flex items-center justify-end gap-2">
+              {/* Toolbar: filters (left) + sort (right) */}
+              <div className="flex items-center gap-2">
                 <button
                   type="button"
                   onClick={() => setFiltersOpen(true)}
@@ -497,7 +497,7 @@ export function StorePage() {
                     })
                   }
                   aria-label={t("sortLabel")}
-                  className="border border-line bg-white px-3 py-2 text-xs font-semibold text-ink focus:outline-none"
+                  className="ms-auto border border-line bg-white px-3 py-2 text-xs font-semibold text-ink focus:outline-none"
                 >
                   <option value="featured">{t("sort.featured")}</option>
                   <option value="priceAsc">{t("sort.priceAsc")}</option>
