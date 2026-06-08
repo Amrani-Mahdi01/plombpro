@@ -439,7 +439,7 @@ export function StorePage() {
                     image: p.image,
                   })
                 }
-                className="mt-3 flex w-full items-center justify-center gap-2 bg-ink px-3 py-3 text-xs font-bold uppercase tracking-wide text-white transition-colors hover:bg-amber hover:text-ink"
+                className="mt-3 flex w-full items-center justify-center gap-2 bg-navy px-3 py-3 text-xs font-bold uppercase tracking-wide text-white transition-colors hover:bg-amber hover:text-ink"
               >
                 <ShoppingCart className="h-4 w-4 shrink-0" />
                 {t("addToCart")}

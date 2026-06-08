@@ -234,7 +234,7 @@ export function ProductDetail({ productId }: { productId: string }) {
                       qty,
                     )
                   }
-                  className="flex flex-1 items-center justify-center gap-2 bg-ink px-6 py-3 text-sm font-bold uppercase tracking-wide text-white transition-colors hover:bg-amber hover:text-ink"
+                  className="flex flex-1 items-center justify-center gap-2 bg-navy px-6 py-3 text-sm font-bold uppercase tracking-wide text-white transition-colors hover:bg-amber hover:text-ink"
                 >
                   <ShoppingCart className="h-5 w-5" />
                   {t("addToCart")}
