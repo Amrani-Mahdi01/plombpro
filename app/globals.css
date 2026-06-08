@@ -1,26 +1,125 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  /* Industrial / utilitarian palette — navy + safety amber + steel */
+  --color-ink: #0a1826;
+  --color-navy: #0e2a47;
+  --color-navy-700: #123a61;
+  --color-steel: #5b7185;
+  --color-steel-200: #c7d0d9;
+  --color-paper: #f3f4f6;
+  --color-line: #d9dde2;
+
+  --color-amber: #f5a300;
+  --color-amber-600: #d98a00;
+  --color-amber-700: #a86a00;
+  --color-teal: #1aa6a6;
+  --color-sale: #d92d20;
+
+  --font-display: var(--font-archivo);
+  --font-arabic: var(--font-cairo);
+
+  /* Strict design: kill every radius token */
+  --radius-xs: 0;
+  --radius-sm: 0;
+  --radius-md: 0;
+  --radius-lg: 0;
+  --radius-xl: 0;
+  --radius-2xl: 0;
+  --radius-3xl: 0;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+@layer base {
+  /* Enforce zero radius everywhere — sharp, hardware-store edges */
+  *,
+  *::before,
+  *::after {
+    border-radius: 0 !important;
+  }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+  html {
+    font-family: var(--font-archivo), system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  /* Arabic gets Cairo for proper shaping + weight range */
+  html[lang="ar"] {
+    font-family: var(--font-cairo), system-ui, sans-serif;
+  }
+
+  body {
+    background: #ffffff;
+    color: var(--color-ink);
+  }
+
+  ::selection {
+    background: var(--color-amber);
+    color: var(--color-ink);
+  }
+
+  /* Strip native search-field chrome so it matches the design */
+  input[type="search"] {
+    appearance: none;
+    -webkit-appearance: none;
+  }
+  input[type="search"]::-webkit-search-cancel-button,
+  input[type="search"]::-webkit-search-decoration {
+    appearance: none;
+    -webkit-appearance: none;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+/* Subtle blueprint grid used behind hero / dark sections */
+.blueprint-grid {
+  background-image:
+    linear-gradient(to right, rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+  background-size: 28px 28px;
+}
+
+/* Thin diagonal hazard stripe — industrial accent */
+.hazard-stripes {
+  background-image: repeating-linear-gradient(
+    -45deg,
+    var(--color-amber) 0,
+    var(--color-amber) 10px,
+    var(--color-ink) 10px,
+    var(--color-ink) 20px
+  );
+}
+
+/* Marquee for the top utility bar */
+@keyframes ticker {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+/* Hide scrollbar on horizontal product carousels (still scrollable) */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Light technical grid for product image tiles */
+.tile-grid {
+  background-image:
+    linear-gradient(to right, rgba(10, 24, 38, 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(10, 24, 38, 0.05) 1px, transparent 1px);
+  background-size: 22px 22px;
+}
+
+/* Brand marquee */
+.animate-ticker {
+  animation: ticker 32s linear infinite;
+}
+.marquee:hover .animate-ticker {
+  animation-play-state: paused;
 }

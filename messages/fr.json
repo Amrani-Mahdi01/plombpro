@@ -1,0 +1,340 @@
+{
+  "Meta": {
+    "title": "PlombPro — Outils & matériel de plomberie en Algérie",
+    "description": "Outils de plomberie professionnels, robinetterie, tuyaux et chauffe-eau. Paiement à la livraison partout en Algérie."
+  },
+  "Header": {
+    "topbar": {
+      "shipping": "Livraison dans les 58 wilayas",
+      "payment": "Paiement à la livraison",
+      "phone": "+213 555 12 34 56"
+    },
+    "brand": "PlombPro",
+    "brandTagline": "Matériel de plomberie",
+    "searchPlaceholder": "Rechercher une clé, un robinet, un tuyau…",
+    "searchButton": "Rechercher",
+    "account": "Compte",
+    "cart": "Panier",
+    "allCategories": "Toutes les catégories",
+    "shop": "Boutique",
+    "megaViewAll": "Voir tous les produits",
+    "menuOpen": "Ouvrir le menu",
+    "menuClose": "Fermer le menu",
+    "nav": {
+      "tools": "Outils",
+      "faucets": "Robinetterie",
+      "pipes": "Tuyaux & Raccords",
+      "heaters": "Chauffe-eau",
+      "bathroom": "Salle de bain",
+      "promos": "Promotions"
+    }
+  },
+  "Hero": {
+    "prev": "Précédent",
+    "next": "Suivant",
+    "goToSlide": "Aller à la diapositive {number}",
+    "slides": [
+      {
+        "kicker": "Qualité professionnelle",
+        "title": "Outils de plomberie pour les vrais pros",
+        "subtitle": "Clés à molette, coupe-tubes, pinces et kits complets. Sélectionnés pour durer sur chaque chantier.",
+        "price": "À partir de 1 990 DA",
+        "cta": "Acheter maintenant",
+        "ctaSecondary": "Voir le catalogue"
+      },
+      {
+        "kicker": "Promo de la semaine",
+        "title": "Robinetterie moderne jusqu’à -30%",
+        "subtitle": "Mitigeurs, robinets de cuisine et de salle de bain. Finitions chromées garanties 2 ans.",
+        "price": "Dès 3 500 DA",
+        "cta": "Profiter de l’offre",
+        "ctaSecondary": "Découvrir"
+      },
+      {
+        "kicker": "Confort à la maison",
+        "title": "Chauffe-eau & solutions sanitaires",
+        "subtitle": "Chauffe-eau, ballons et accessoires installés simplement. Livraison rapide partout en Algérie.",
+        "price": "Dès 18 900 DA",
+        "cta": "Commander",
+        "ctaSecondary": "Nos modèles"
+      }
+    ]
+  },
+  "Products": {
+    "tabs": {
+      "new": "Nouveaux produits",
+      "promo": "Produits en promotion",
+      "plumbing": "Plomberie et chauffage"
+    },
+    "newBadge": "Nouveau",
+    "addToCart": "Ajouter au panier",
+    "currency": "DZD",
+    "prev": "Précédent",
+    "next": "Suivant",
+    "viewAll": "Voir tous les produits",
+    "items": {
+      "new": [
+        { "name": "Clé à molette professionnelle 250 mm", "price": 1200 },
+        { "name": "Mitigeur de cuisine chromé col haut", "price": 3500 },
+        { "name": "Coupe-tube cuivre 3–28 mm", "price": 1500 },
+        { "name": "Ruban Téflon PTFE (lot de 10)", "price": 250 },
+        { "name": "Clé serre-tube 14\" en acier", "price": 2100 },
+        { "name": "Robinet d'arrêt en laiton 1/2\"", "price": 680 }
+      ],
+      "promo": [
+        { "name": "Chauffe-eau électrique 50 L", "price": 18900, "oldPrice": 24900, "discount": 24 },
+        { "name": "Pompe à eau auto-amorçante 0,5 CV", "price": 9500, "oldPrice": 12000, "discount": 20 },
+        { "name": "Kit de douche complet inox", "price": 4200, "oldPrice": 6000, "discount": 30 },
+        { "name": "Pistolet à mastic professionnel", "price": 950, "oldPrice": 1400, "discount": 32 },
+        { "name": "Détecteur de fuite électronique", "price": 3800, "oldPrice": 5200, "discount": 27 },
+        { "name": "Set de joints d'étanchéité (120 pcs)", "price": 600, "oldPrice": 900, "discount": 33 }
+      ],
+      "plumbing": [
+        { "name": "Tube PER 16 mm (rouleau 25 m)", "price": 2800 },
+        { "name": "Raccord PVC évacuation Ø40", "price": 180 },
+        { "name": "Radiateur acier panneau 600×800", "price": 11500 },
+        { "name": "Vanne thermostatique 1/2\"", "price": 1350 },
+        { "name": "Collier de serrage inox (lot de 20)", "price": 450 },
+        { "name": "Manomètre de pression 0–10 bar", "price": 1100 }
+      ]
+    }
+  },
+  "Categories": {
+    "title": "Acheter par catégorie",
+    "subtitle": "Tout le matériel de plomberie, classé pour aller plus vite.",
+    "productsLabel": "produits",
+    "cta": "Découvrir",
+    "viewAll": "Voir toutes les catégories",
+    "items": [
+      { "name": "Outils", "count": "120+" },
+      { "name": "Robinetterie", "count": "85+" },
+      { "name": "Tuyaux & Raccords", "count": "200+" },
+      { "name": "Chauffe-eau", "count": "40+" },
+      { "name": "Salle de bain", "count": "95+" },
+      { "name": "Plomberie & Chauffage", "count": "150+" }
+    ]
+  },
+  "Promo": {
+    "eyebrow": "Promotions",
+    "title": "Jusqu'à -30% sur la robinetterie",
+    "text": "Profitez de nos offres limitées sur une sélection d'outils et d'équipements de plomberie professionnels.",
+    "cta": "Voir les promotions",
+    "badge": "-30%"
+  },
+  "Brands": {
+    "title": "Marques de confiance"
+  },
+  "Newsletter": {
+    "title": "Restez informé de nos offres",
+    "text": "Inscrivez-vous et recevez en avant-première nos promotions et nouveautés.",
+    "placeholder": "Votre adresse e-mail",
+    "button": "S'inscrire"
+  },
+  "Heating": {
+    "title": "Chauffe-eau & chauffage",
+    "subtitle": "Une catégorie, tout l'essentiel",
+    "details": "Détails",
+    "lowStock": "Derniers articles en stock",
+    "outOfStock": "Non disponible",
+    "items": [
+      { "name": "Chauffe-eau électrique 100 L vertical", "price": 26900, "spec": "100 L", "status": "new" },
+      { "name": "Radiateur acier panneau 600×1200 mm", "price": 15500, "spec": "600×1200" },
+      { "name": "Pompe de circulation pour chauffage", "price": 7200, "spec": "0,5 CV", "status": "low" },
+      { "name": "Thermostat d'ambiance programmable", "price": 3400, "spec": "230 V", "status": "out" },
+      { "name": "Vanne thermostatique radiateur 1/2\"", "price": 1350, "spec": "Ø 1/2\"" },
+      { "name": "Manomètre de chauffage 0–4 bar", "price": 1100, "spec": "0–4 bar" }
+    ]
+  },
+  "Knives": {
+    "title": "Couteaux & cutters",
+    "subtitle": "Une coupe nette, à chaque fois",
+    "details": "Détails",
+    "lowStock": "Derniers articles en stock",
+    "outOfStock": "Non disponible",
+    "items": [
+      { "name": "Couteau utilitaire rétractable 18 mm", "price": 450, "spec": "18 mm", "status": "new" },
+      { "name": "Lames trapézoïdales de rechange (boîte de 10)", "price": 250, "spec": "×10" },
+      { "name": "Cutter de sécurité auto-rétractable", "price": 780, "spec": "Sécurité" },
+      { "name": "Couteau de plombier à mastic inox", "price": 600, "spec": "Inox", "status": "low" },
+      { "name": "Couteau pliant multifonction", "price": 1200, "spec": "Pliant" },
+      { "name": "Set de cutters professionnels (5 pièces)", "price": 1500, "spec": "5 PCS", "status": "out" }
+    ]
+  },
+  "Shop": {
+    "title": "Boutique",
+    "subtitle": "Tous nos produits de plomberie",
+    "filters": "Filtres",
+    "categoriesTitle": "Catégories",
+    "subcategoriesTitle": "Sous-catégories",
+    "subHint": "Sélectionnez une catégorie pour affiner.",
+    "brandsTitle": "Marques",
+    "colorsTitle": "Couleurs",
+    "priceTitle": "Prix (DZD)",
+    "min": "Minimum",
+    "max": "Maximum",
+    "sortLabel": "Trier par",
+    "results": "{count} produits",
+    "promoOnly": "Uniquement en promotion",
+    "clear": "Effacer les filtres",
+    "apply": "Voir les résultats",
+    "close": "Fermer",
+    "noResults": "Aucun produit ne correspond à vos filtres.",
+    "searchLabel": "Recherche : « {q} »",
+    "newBadge": "Nouveau",
+    "addToCart": "Ajouter au panier",
+    "details": "Détails",
+    "lowStock": "Dernières pièces",
+    "outOfStock": "Non disponible",
+    "currency": "DZD",
+    "sort": {
+      "featured": "En vedette",
+      "priceAsc": "Prix croissant",
+      "priceDesc": "Prix décroissant",
+      "newest": "Nouveautés"
+    },
+    "categories": {
+      "outils": "Outils",
+      "robinetterie": "Robinetterie",
+      "tuyaux": "Tuyaux & Raccords",
+      "chauffage": "Chauffe-eau & Chauffage",
+      "sanitaire": "Salle de bain"
+    },
+    "subcategories": {
+      "cles": "Clés",
+      "coupetubes": "Coupe-tubes",
+      "couteaux": "Couteaux & cutters",
+      "etancheite": "Étanchéité",
+      "mitigeurs": "Mitigeurs",
+      "robinets": "Robinets",
+      "douche": "Douche",
+      "per": "Tube PER",
+      "pvc": "PVC",
+      "cuivre": "Cuivre",
+      "raccords": "Raccords",
+      "chauffeeau": "Chauffe-eau",
+      "radiateurs": "Radiateurs",
+      "pompes": "Pompes",
+      "vannes": "Vannes & Mesure",
+      "kitsdouche": "Kits de douche",
+      "accessoires": "Accessoires"
+    }
+  },
+  "Product": {
+    "home": "Accueil",
+    "shop": "Boutique",
+    "addToCart": "Ajouter au panier",
+    "decrease": "Diminuer",
+    "increase": "Augmenter",
+    "prev": "Image précédente",
+    "next": "Image suivante",
+    "color": "Couleur",
+    "colors": {
+      "chrome": "Chromé",
+      "inox": "Inox",
+      "noir": "Noir mat",
+      "laiton": "Laiton",
+      "cuivre": "Cuivre",
+      "blanc": "Blanc",
+      "anthracite": "Anthracite",
+      "rouge": "Rouge",
+      "jaune": "Jaune",
+      "bleu": "Bleu"
+    },
+    "description": "{brand} — équipement de plomberie de qualité professionnelle, conçu et fabriqué pour résister à un usage intensif, sur vos chantiers comme à la maison. Sélectionné par nos experts pour sa robustesse, sa précision et sa longévité, il vous assure des finitions impeccables et une fiabilité durable, année après année. Chaque pièce est contrôlée avant expédition pour garantir une qualité constante. Livraison rapide partout en Algérie, avec paiement à la livraison à la réception de votre commande.",
+    "featuresTitle": "Points forts",
+    "features": [
+      "Matériaux résistants à la corrosion et à l'usure",
+      "Adapté aux professionnels comme aux particuliers",
+      "Paiement à la livraison dans les 58 wilayas",
+      "Produit garanti et conforme aux normes"
+    ],
+    "specifications": "Caractéristiques",
+    "brand": "Marque",
+    "category": "Catégorie",
+    "subcategory": "Sous-catégorie",
+    "reference": "Référence",
+    "spec": "Spécification",
+    "related": "Produits similaires",
+    "inStock": "En stock",
+    "lowStock": "Dernières pièces",
+    "outOfStock": "Non disponible",
+    "backToShop": "Retour à la boutique",
+    "delivery": "Livraison 58 wilayas",
+    "cod": "Paiement à la livraison",
+    "warranty": "Produits garantis"
+  },
+  "Checkout": {
+    "title": "Finaliser la commande",
+    "empty": "Votre panier est vide",
+    "emptyHint": "Ajoutez des produits avant de passer commande.",
+    "backToShop": "Aller à la boutique",
+    "deliveryInfo": "Informations de livraison",
+    "fullName": "Nom complet",
+    "phone": "Téléphone",
+    "wilaya": "Wilaya",
+    "selectWilaya": "Choisir une wilaya",
+    "commune": "Commune",
+    "address": "Adresse",
+    "notes": "Notes (optionnel)",
+    "notesPlaceholder": "Instructions de livraison, point de repère…",
+    "deliveryMethod": "Mode de livraison",
+    "home": "À domicile",
+    "stopdesk": "Stop Desk (bureau)",
+    "paymentTitle": "Paiement",
+    "cod": "Paiement à la livraison",
+    "codHint": "Vous payez en espèces à la réception de votre commande.",
+    "summary": "Récapitulatif",
+    "subtotal": "Sous-total",
+    "delivery": "Livraison",
+    "total": "Total",
+    "confirm": "Confirmer la commande",
+    "successTitle": "Commande confirmée !",
+    "successText": "Merci ! Votre commande a bien été enregistrée. Notre équipe vous appellera très bientôt pour confirmer la livraison.",
+    "orderNumber": "Numéro de commande",
+    "continue": "Continuer mes achats",
+    "currency": "DZD"
+  },
+  "Cart": {
+    "title": "Mon panier",
+    "close": "Fermer",
+    "empty": "Votre panier est vide",
+    "emptyHint": "Ajoutez des produits pour les retrouver ici.",
+    "continue": "Continuer mes achats",
+    "subtotal": "Sous-total",
+    "checkout": "Passer la commande",
+    "clear": "Vider le panier",
+    "remove": "Retirer",
+    "decrease": "Diminuer la quantité",
+    "increase": "Augmenter la quantité",
+    "codNote": "Paiement à la livraison disponible"
+  },
+  "Footer": {
+    "tagline": "Votre quincaillerie de plomberie en ligne.",
+    "rights": "Tous droits réservés.",
+    "aboutText": "PlombPro fournit des outils et équipements de plomberie de qualité partout en Algérie, avec paiement à la livraison.",
+    "shopTitle": "Boutique",
+    "helpTitle": "Service client",
+    "contactTitle": "Contact",
+    "followUs": "Suivez-nous",
+    "links": {
+      "tools": "Outils",
+      "faucets": "Robinetterie",
+      "pipes": "Tuyaux & Raccords",
+      "heaters": "Chauffe-eau",
+      "promos": "Promotions"
+    },
+    "help": {
+      "track": "Suivi de commande",
+      "delivery": "Livraison & retours",
+      "payment": "Paiement à la livraison",
+      "faq": "FAQ",
+      "contact": "Nous contacter"
+    },
+    "contact": {
+      "phone": "+213 555 12 34 56",
+      "email": "contact@plombpro.dz",
+      "address": "Cité 1000 Logements, Alger, Algérie",
+      "hours": "Sam – Jeu : 9h00 – 18h00"
+    }
+  }
+}
