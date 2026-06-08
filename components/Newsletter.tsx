@@ -7,7 +7,7 @@ export function Newsletter() {
   const t = useTranslations("Newsletter");
 
   return (
-    <section className="bg-ink text-white">
+    <section className="bg-navy text-white">
       <div className="hazard-stripes h-2 w-full" />
       <div className="mx-auto grid max-w-7xl items-center gap-8 px-4 py-14 sm:py-16 lg:grid-cols-2">
         <div>

@@ -106,12 +106,12 @@ export function HeroSlider() {
   // Scrim is anchored to the text side (start edge) so copy stays legible
   // regardless of where the photo's subject sits.
   const scrim = isRtl
-    ? "bg-gradient-to-l from-ink/95 via-ink/55 to-ink/10"
-    : "bg-gradient-to-r from-ink/95 via-ink/55 to-ink/10";
+    ? "bg-gradient-to-l from-navy/95 via-navy/55 to-navy/10"
+    : "bg-gradient-to-r from-navy/95 via-navy/55 to-navy/10";
 
   return (
     <section
-      className="relative touch-pan-y overflow-hidden bg-ink"
+      className="relative touch-pan-y overflow-hidden bg-navy"
       onMouseEnter={() => setPaused(true)}
       onMouseLeave={() => setPaused(false)}
       onFocusCapture={() => setPaused(true)}
@@ -153,8 +153,8 @@ export function HeroSlider() {
 
             {/* Legibility scrims */}
             <div className={`absolute inset-0 ${scrim}`} />
-            <div className="absolute inset-0 bg-ink/20" />
-            <div className="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-ink/80 to-transparent" />
+            <div className="absolute inset-0 bg-navy/20" />
+            <div className="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-navy/80 to-transparent" />
 
             {/* Content */}
             <div className="relative mx-auto flex h-full max-w-7xl items-center px-4">

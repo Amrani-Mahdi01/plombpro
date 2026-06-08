@@ -154,7 +154,7 @@ export function Header() {
   return (
     <header className="sticky top-0 z-50 w-full">
       {/* Top utility bar */}
-      <div className="bg-ink text-white">
+      <div className="bg-navy text-white">
         <div className="mx-auto flex h-9 max-w-7xl items-center justify-between gap-4 px-4 text-xs">
           <div className="flex items-center gap-5">
             <span className="hidden items-center gap-1.5 sm:flex">

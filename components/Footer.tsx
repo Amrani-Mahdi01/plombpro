@@ -12,7 +12,7 @@ export async function Footer() {
   const year = 2026;
 
   return (
-    <footer className="mt-auto bg-ink text-white">
+    <footer className="mt-auto bg-navy text-white">
       <div className="mx-auto max-w-7xl px-4 py-14">
         <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-12">
           {/* Brand */}
