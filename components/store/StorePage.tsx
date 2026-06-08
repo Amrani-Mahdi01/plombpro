@@ -474,44 +474,44 @@ export function StorePage() {
           {/* Results */}
           <div>
             <div className="mb-5 border-b border-line pb-4">
-              <div className="flex items-center justify-between gap-3">
-                <span className="text-sm font-semibold text-steel">
-                  {t("results", { count: filtered.length })}
-                </span>
-                <div className="flex items-center gap-2">
-                  <button
-                    type="button"
-                    onClick={() => setFiltersOpen(true)}
-                    className="flex items-center gap-2 border border-line px-3 py-2 text-xs font-bold uppercase tracking-wide text-ink lg:hidden"
-                  >
-                    <SlidersHorizontal className="h-4 w-4" />
-                    {t("filters")}
-                    {activeCount > 0 && (
-                      <span className="flex h-5 min-w-5 items-center justify-center bg-amber px-1 text-[11px] text-ink">
-                        {activeCount}
-                      </span>
-                    )}
-                  </button>
-                  <select
-                    value={sort}
-                    onChange={(e) =>
-                      setParams({
-                        sort: e.target.value === "featured" ? null : e.target.value,
-                      })
-                    }
-                    aria-label={t("sortLabel")}
-                    className="border border-line bg-white px-3 py-2 text-xs font-semibold text-ink focus:outline-none"
-                  >
-                    <option value="featured">{t("sort.featured")}</option>
-                    <option value="priceAsc">{t("sort.priceAsc")}</option>
-                    <option value="priceDesc">{t("sort.priceDesc")}</option>
-                    <option value="newest">{t("sort.newest")}</option>
-                  </select>
-                </div>
+              {/* Toolbar: filters + sort (right-aligned) */}
+              <div className="flex items-center justify-end gap-2">
+                <button
+                  type="button"
+                  onClick={() => setFiltersOpen(true)}
+                  className="flex items-center gap-2 border border-line px-3 py-2 text-xs font-bold uppercase tracking-wide text-ink lg:hidden"
+                >
+                  <SlidersHorizontal className="h-4 w-4" />
+                  {t("filters")}
+                  {activeCount > 0 && (
+                    <span className="flex h-5 min-w-5 items-center justify-center bg-amber px-1 text-[11px] text-ink">
+                      {activeCount}
+                    </span>
+                  )}
+                </button>
+                <select
+                  value={sort}
+                  onChange={(e) =>
+                    setParams({
+                      sort: e.target.value === "featured" ? null : e.target.value,
+                    })
+                  }
+                  aria-label={t("sortLabel")}
+                  className="border border-line bg-white px-3 py-2 text-xs font-semibold text-ink focus:outline-none"
+                >
+                  <option value="featured">{t("sort.featured")}</option>
+                  <option value="priceAsc">{t("sort.priceAsc")}</option>
+                  <option value="priceDesc">{t("sort.priceDesc")}</option>
+                  <option value="newest">{t("sort.newest")}</option>
+                </select>
               </div>
 
-              {query && (
-                <div className="mt-3">
+              {/* Result count + active search chip (below the toolbar) */}
+              <div className="mt-3 flex flex-wrap items-center gap-3">
+                <span className="shrink-0 whitespace-nowrap text-sm font-semibold text-steel">
+                  {t("results", { count: filtered.length })}
+                </span>
+                {query && (
                   <span className="inline-flex max-w-full items-center gap-1.5 bg-paper px-2.5 py-1 text-xs font-semibold text-ink">
                     <span className="truncate">
                       {t("searchLabel", { q: query })}
@@ -525,8 +525,8 @@ export function StorePage() {
                       <X className="h-3.5 w-3.5" />
                     </button>
                   </span>
-                </div>
-              )}
+                )}
+              </div>
             </div>
 
             {filtered.length === 0 ? (
