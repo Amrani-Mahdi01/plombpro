@@ -223,7 +223,7 @@ export function HeroSlider() {
           type="button"
           onClick={() => paginate(-1)}
           aria-label={t("prev")}
-          className="absolute start-3 top-1/2 z-10 hidden h-11 w-11 -translate-y-1/2 items-center justify-center border border-white/25 bg-ink/40 text-white backdrop-blur-sm transition-colors hover:bg-amber hover:text-ink sm:flex"
+          className="absolute start-3 top-1/2 z-10 hidden h-11 w-11 -translate-y-1/2 items-center justify-center border border-white/25 bg-navy/40 text-white backdrop-blur-sm transition-colors hover:bg-amber hover:text-ink sm:flex"
         >
           <PrevIcon className="h-5 w-5" />
         </button>
@@ -231,7 +231,7 @@ export function HeroSlider() {
           type="button"
           onClick={() => paginate(1)}
           aria-label={t("next")}
-          className="absolute end-3 top-1/2 z-10 hidden h-11 w-11 -translate-y-1/2 items-center justify-center border border-white/25 bg-ink/40 text-white backdrop-blur-sm transition-colors hover:bg-amber hover:text-ink sm:flex"
+          className="absolute end-3 top-1/2 z-10 hidden h-11 w-11 -translate-y-1/2 items-center justify-center border border-white/25 bg-navy/40 text-white backdrop-blur-sm transition-colors hover:bg-amber hover:text-ink sm:flex"
         >
           <NextIcon className="h-5 w-5" />
         </button>

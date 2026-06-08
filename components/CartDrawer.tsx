@@ -43,7 +43,7 @@ export function CartDrawer() {
       {isOpen && (
         <>
           <motion.div
-            className="fixed inset-0 z-[60] bg-ink/60 backdrop-blur-sm"
+            className="fixed inset-0 z-[60] bg-navy/60 backdrop-blur-sm"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
@@ -62,7 +62,7 @@ export function CartDrawer() {
             aria-label={t("title")}
           >
             {/* Header */}
-            <div className="flex items-center justify-between border-b border-line bg-ink px-5 py-4 text-white">
+            <div className="flex items-center justify-between border-b border-line bg-navy px-5 py-4 text-white">
               <div className="flex items-center gap-2.5">
                 <ShoppingCart className="h-5 w-5 text-amber" />
                 <h2 className="font-display text-lg font-extrabold tracking-tight">
@@ -94,7 +94,7 @@ export function CartDrawer() {
                 <button
                   type="button"
                   onClick={close}
-                  className="mt-2 bg-ink px-5 py-3 text-sm font-bold uppercase tracking-wide text-white transition-colors hover:bg-amber hover:text-ink"
+                  className="mt-2 bg-navy px-5 py-3 text-sm font-bold uppercase tracking-wide text-white transition-colors hover:bg-amber hover:text-ink"
                 >
                   {t("continue")}
                 </button>
@@ -186,7 +186,7 @@ export function CartDrawer() {
                   <Link
                     href="/commande"
                     onClick={close}
-                    className="flex w-full items-center justify-center gap-2 bg-amber px-5 py-4 text-sm font-bold uppercase tracking-wide text-ink transition-colors hover:bg-ink hover:text-white"
+                    className="flex w-full items-center justify-center gap-2 bg-amber px-5 py-4 text-sm font-bold uppercase tracking-wide text-ink transition-colors hover:bg-navy hover:text-white"
                   >
                     {t("checkout")}
                   </Link>

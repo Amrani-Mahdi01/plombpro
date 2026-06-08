@@ -20,7 +20,7 @@ export function PromoBanner() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-80px" }}
           transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
-          className="relative overflow-hidden bg-ink"
+          className="relative overflow-hidden bg-navy"
         >
           <Image
             src="/products/new-0.jpg"
@@ -33,15 +33,15 @@ export function PromoBanner() {
           <div
             className={`absolute inset-0 ${
               isRtl
-                ? "bg-gradient-to-l from-ink via-ink/80 to-ink/30"
-                : "bg-gradient-to-r from-ink via-ink/80 to-ink/30"
+                ? "bg-gradient-to-l from-navy via-navy/80 to-navy/30"
+                : "bg-gradient-to-r from-navy via-navy/80 to-navy/30"
             }`}
           />
 
           <div className="relative grid items-center gap-8 p-8 sm:p-12 lg:grid-cols-12">
             <div className="lg:col-span-8">
               <span className="inline-flex items-center gap-2 bg-amber px-3 py-1 text-xs font-bold uppercase tracking-wider text-ink">
-                <span className="h-2 w-2 bg-ink" />
+                <span className="h-2 w-2 bg-navy" />
                 {t("eyebrow")}
               </span>
               <h2 className="mt-4 max-w-xl font-display text-3xl font-extrabold leading-tight tracking-tight text-white sm:text-4xl lg:text-5xl">
@@ -60,7 +60,7 @@ export function PromoBanner() {
             </div>
 
             <div className="hidden justify-end lg:col-span-4 lg:flex">
-              <div className="flex h-40 w-40 flex-col items-center justify-center border-4 border-amber bg-ink/40 backdrop-blur-sm">
+              <div className="flex h-40 w-40 flex-col items-center justify-center border-4 border-amber bg-navy/40 backdrop-blur-sm">
                 <span className="font-display text-5xl font-extrabold text-amber">
                   {t("badge")}
                 </span>

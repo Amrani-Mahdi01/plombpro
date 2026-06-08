@@ -146,7 +146,7 @@ export function ProductShowcase() {
               onClick={goPrev}
               disabled={atStart}
               aria-label={t("prev")}
-              className="flex h-9 w-9 items-center justify-center border border-line bg-white text-ink transition-colors hover:bg-ink hover:text-white disabled:cursor-not-allowed disabled:opacity-30 disabled:hover:bg-white disabled:hover:text-ink"
+              className="flex h-9 w-9 items-center justify-center border border-line bg-white text-ink transition-colors hover:bg-navy hover:text-white disabled:cursor-not-allowed disabled:opacity-30 disabled:hover:bg-white disabled:hover:text-ink"
             >
               <PrevIcon className="h-5 w-5" />
             </button>
@@ -155,7 +155,7 @@ export function ProductShowcase() {
               onClick={goNext}
               disabled={atEnd}
               aria-label={t("next")}
-              className="flex h-9 w-9 items-center justify-center border border-line bg-white text-ink transition-colors hover:bg-ink hover:text-white disabled:cursor-not-allowed disabled:opacity-30 disabled:hover:bg-white disabled:hover:text-ink"
+              className="flex h-9 w-9 items-center justify-center border border-line bg-white text-ink transition-colors hover:bg-navy hover:text-white disabled:cursor-not-allowed disabled:opacity-30 disabled:hover:bg-white disabled:hover:text-ink"
             >
               <NextIcon className="h-5 w-5" />
             </button>
@@ -288,7 +288,7 @@ export function ProductShowcase() {
         <div className="mt-8 flex justify-center">
           <Link
             href="/boutique"
-            className="inline-flex items-center gap-2 border border-ink px-6 py-3 text-sm font-bold uppercase tracking-wide text-ink transition-colors hover:bg-ink hover:text-white"
+            className="inline-flex items-center gap-2 border border-navy px-6 py-3 text-sm font-bold uppercase tracking-wide text-ink transition-colors hover:bg-navy hover:text-white"
           >
             {t("viewAll")}
             <ArrowRight className="h-4 w-4 rtl:-scale-x-100" />

@@ -129,7 +129,7 @@ export function CategoryProducts({
               onClick={goPrev}
               disabled={atStart}
               aria-label={tp("prev")}
-              className="flex h-9 w-9 items-center justify-center border border-line bg-white text-ink transition-colors hover:bg-ink hover:text-white disabled:cursor-not-allowed disabled:opacity-30 disabled:hover:bg-white disabled:hover:text-ink"
+              className="flex h-9 w-9 items-center justify-center border border-line bg-white text-ink transition-colors hover:bg-navy hover:text-white disabled:cursor-not-allowed disabled:opacity-30 disabled:hover:bg-white disabled:hover:text-ink"
             >
               <PrevIcon className="h-5 w-5" />
             </button>
@@ -138,7 +138,7 @@ export function CategoryProducts({
               onClick={goNext}
               disabled={atEnd}
               aria-label={tp("next")}
-              className="flex h-9 w-9 items-center justify-center border border-line bg-white text-ink transition-colors hover:bg-ink hover:text-white disabled:cursor-not-allowed disabled:opacity-30 disabled:hover:bg-white disabled:hover:text-ink"
+              className="flex h-9 w-9 items-center justify-center border border-line bg-white text-ink transition-colors hover:bg-navy hover:text-white disabled:cursor-not-allowed disabled:opacity-30 disabled:hover:bg-white disabled:hover:text-ink"
             >
               <NextIcon className="h-5 w-5" />
             </button>
@@ -241,7 +241,7 @@ export function CategoryProducts({
                         <Link
                           href={href}
                           draggable={false}
-                          className="mt-3 flex w-full items-center justify-center gap-2 border border-ink bg-white px-3 py-3 text-xs font-bold uppercase tracking-wide text-ink transition-colors hover:bg-ink hover:text-white"
+                          className="mt-3 flex w-full items-center justify-center gap-2 border border-navy bg-white px-3 py-3 text-xs font-bold uppercase tracking-wide text-ink transition-colors hover:bg-navy hover:text-white"
                         >
                           <Eye className="h-4 w-4 shrink-0" />
                           <span>{t("details")}</span>
@@ -294,7 +294,7 @@ export function CategoryProducts({
         <div className="mt-8 flex justify-center">
           <Link
             href="/boutique"
-            className="inline-flex items-center gap-2 border border-ink px-6 py-3 text-sm font-bold uppercase tracking-wide text-ink transition-colors hover:bg-ink hover:text-white"
+            className="inline-flex items-center gap-2 border border-navy px-6 py-3 text-sm font-bold uppercase tracking-wide text-ink transition-colors hover:bg-navy hover:text-white"
           >
             {tp("viewAll")}
             <ArrowRight className="h-4 w-4 rtl:-scale-x-100" />

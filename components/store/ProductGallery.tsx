@@ -88,7 +88,7 @@ export function ProductGallery({
               type="button"
               onClick={() => go(-1)}
               aria-label={prevLabel}
-              className="absolute start-3 top-1/2 z-10 flex h-10 w-10 -translate-y-1/2 items-center justify-center border border-line bg-white/90 text-ink backdrop-blur-sm transition-colors hover:bg-ink hover:text-white"
+              className="absolute start-3 top-1/2 z-10 flex h-10 w-10 -translate-y-1/2 items-center justify-center border border-line bg-white/90 text-ink backdrop-blur-sm transition-colors hover:bg-navy hover:text-white"
             >
               <Prev className="h-5 w-5" />
             </button>
@@ -96,7 +96,7 @@ export function ProductGallery({
               type="button"
               onClick={() => go(1)}
               aria-label={nextLabel}
-              className="absolute end-3 top-1/2 z-10 flex h-10 w-10 -translate-y-1/2 items-center justify-center border border-line bg-white/90 text-ink backdrop-blur-sm transition-colors hover:bg-ink hover:text-white"
+              className="absolute end-3 top-1/2 z-10 flex h-10 w-10 -translate-y-1/2 items-center justify-center border border-line bg-white/90 text-ink backdrop-blur-sm transition-colors hover:bg-navy hover:text-white"
             >
               <Next className="h-5 w-5" />
             </button>

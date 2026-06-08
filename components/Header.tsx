@@ -233,7 +233,7 @@ export function Header() {
             <button
               type="button"
               onClick={open}
-              className="relative flex items-center gap-2 bg-ink px-4 py-2.5 text-sm font-bold text-white transition-colors hover:bg-navy"
+              className="relative flex items-center gap-2 bg-navy px-4 py-2.5 text-sm font-bold text-white transition-colors hover:bg-navy"
             >
               <ShoppingCart className="h-5 w-5" />
               <span className="hidden lg:inline">{t("cart")}</span>
@@ -464,7 +464,7 @@ export function Header() {
       <AnimatePresence>
         {mobileOpen && (
           <motion.div
-            className="fixed inset-0 z-[80] flex flex-col bg-ink text-white md:hidden"
+            className="fixed inset-0 z-[80] flex flex-col bg-navy text-white md:hidden"
             initial={{ x: "-100%" }}
             animate={{ x: 0 }}
             exit={{ x: "-100%" }}

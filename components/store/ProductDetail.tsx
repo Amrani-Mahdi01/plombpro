@@ -186,7 +186,7 @@ export function ProductDetail({ productId }: { productId: string }) {
                       aria-pressed={c === color}
                       className={`h-9 w-9 border-2 transition-all ${
                         c === color
-                          ? "border-ink"
+                          ? "border-navy"
                           : "border-line hover:border-steel"
                       }`}
                       style={{ backgroundColor: COLOR_HEX[c] ?? "#cccccc" }}
@@ -243,7 +243,7 @@ export function ProductDetail({ productId }: { productId: string }) {
             ) : (
               <Link
                 href="/boutique"
-                className="mt-6 inline-flex items-center gap-2 border border-ink px-6 py-3 text-sm font-bold uppercase tracking-wide text-ink transition-colors hover:bg-ink hover:text-white"
+                className="mt-6 inline-flex items-center gap-2 border border-navy px-6 py-3 text-sm font-bold uppercase tracking-wide text-ink transition-colors hover:bg-navy hover:text-white"
               >
                 {t("backToShop")}
               </Link>

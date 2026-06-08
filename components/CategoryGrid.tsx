@@ -77,7 +77,7 @@ export function CategoryGrid() {
                   sizes="(max-width: 1024px) 50vw, 33vw"
                   className="object-cover transition-transform duration-500 group-hover:scale-105"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-ink via-ink/40 to-transparent" />
+                <div className="absolute inset-0 bg-gradient-to-t from-navy via-navy/40 to-transparent" />
                 <div className="absolute inset-x-0 bottom-0 flex items-end justify-between gap-2 p-4 sm:p-5">
                   <div>
                     <h3 className="font-display text-sm font-extrabold leading-tight text-white sm:text-lg lg:text-xl">
@@ -99,7 +99,7 @@ export function CategoryGrid() {
         <div className="mt-8 flex justify-center">
           <Link
             href="/boutique"
-            className="inline-flex items-center gap-2 border border-ink px-6 py-3 text-sm font-bold uppercase tracking-wide text-ink transition-colors hover:bg-ink hover:text-white"
+            className="inline-flex items-center gap-2 border border-navy px-6 py-3 text-sm font-bold uppercase tracking-wide text-ink transition-colors hover:bg-navy hover:text-white"
           >
             {t("viewAll")}
             <ArrowRight className="h-4 w-4 rtl:-scale-x-100" />

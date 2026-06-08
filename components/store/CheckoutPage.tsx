@@ -73,7 +73,7 @@ export function CheckoutPage() {
           <div className="mt-8">
             <Link
               href="/boutique"
-              className="inline-flex items-center gap-2 bg-ink px-6 py-3.5 text-sm font-bold uppercase tracking-wide text-white transition-colors hover:bg-amber hover:text-ink"
+              className="inline-flex items-center gap-2 bg-navy px-6 py-3.5 text-sm font-bold uppercase tracking-wide text-white transition-colors hover:bg-amber hover:text-ink"
             >
               {t("continue")}
             </Link>
@@ -97,7 +97,7 @@ export function CheckoutPage() {
           <p className="text-sm text-steel">{t("emptyHint")}</p>
           <Link
             href="/boutique"
-            className="mt-2 bg-ink px-6 py-3 text-sm font-bold uppercase tracking-wide text-white transition-colors hover:bg-amber hover:text-ink"
+            className="mt-2 bg-navy px-6 py-3 text-sm font-bold uppercase tracking-wide text-white transition-colors hover:bg-amber hover:text-ink"
           >
             {t("backToShop")}
           </Link>
@@ -221,7 +221,7 @@ export function CheckoutPage() {
           {/* Summary */}
           <aside className="lg:sticky lg:top-24 lg:self-start">
             <div className="border border-line">
-              <div className="bg-ink px-4 py-3">
+              <div className="bg-navy px-4 py-3">
                 <h2 className="font-display text-base font-extrabold uppercase tracking-tight text-white">
                   {t("summary")}
                 </h2>
@@ -274,7 +274,7 @@ export function CheckoutPage() {
                 </div>
                 <button
                   type="submit"
-                  className="mt-2 w-full bg-amber px-5 py-4 text-sm font-bold uppercase tracking-wide text-ink transition-colors hover:bg-ink hover:text-white"
+                  className="mt-2 w-full bg-amber px-5 py-4 text-sm font-bold uppercase tracking-wide text-ink transition-colors hover:bg-navy hover:text-white"
                 >
                   {t("confirm")}
                 </button>

@@ -322,7 +322,7 @@ export function StorePage() {
         <button
           type="button"
           onClick={clearAll}
-          className="w-full border border-line py-2.5 text-xs font-bold uppercase tracking-wide text-ink transition-colors hover:bg-ink hover:text-white"
+          className="w-full border border-line py-2.5 text-xs font-bold uppercase tracking-wide text-ink transition-colors hover:bg-navy hover:text-white"
         >
           {t("clear")}
         </button>
@@ -423,7 +423,7 @@ export function StorePage() {
             {isOut ? (
               <Link
                 href={`/produit/${p.id}`}
-                className="mt-3 flex w-full items-center justify-center gap-2 border border-ink bg-white px-3 py-3 text-xs font-bold uppercase tracking-wide text-ink transition-colors hover:bg-ink hover:text-white"
+                className="mt-3 flex w-full items-center justify-center gap-2 border border-navy bg-white px-3 py-3 text-xs font-bold uppercase tracking-wide text-ink transition-colors hover:bg-navy hover:text-white"
               >
                 <Eye className="h-4 w-4 shrink-0" />
                 {t("details")}
@@ -545,7 +545,7 @@ export function StorePage() {
         {filtersOpen && (
           <>
             <motion.div
-              className="fixed inset-0 z-[60] bg-ink/60 backdrop-blur-sm lg:hidden"
+              className="fixed inset-0 z-[60] bg-navy/60 backdrop-blur-sm lg:hidden"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
@@ -558,7 +558,7 @@ export function StorePage() {
               exit={{ x: isRtl ? "100%" : "-100%" }}
               transition={{ duration: 0.3, ease: [0.22, 1, 0.36, 1] }}
             >
-              <div className="flex items-center justify-between border-b border-line bg-ink px-4 py-3 text-white">
+              <div className="flex items-center justify-between border-b border-line bg-navy px-4 py-3 text-white">
                 <span className="flex items-center gap-2 font-display text-base font-extrabold">
                   <SlidersHorizontal className="h-5 w-5 text-amber" />
                   {t("filters")}
@@ -577,7 +577,7 @@ export function StorePage() {
                 <button
                   type="button"
                   onClick={() => setFiltersOpen(false)}
-                  className="w-full bg-amber py-3 text-sm font-bold uppercase tracking-wide text-ink transition-colors hover:bg-ink hover:text-white"
+                  className="w-full bg-amber py-3 text-sm font-bold uppercase tracking-wide text-ink transition-colors hover:bg-navy hover:text-white"
                 >
                   {t("apply")} ({filtered.length})
                 </button>
