@@ -1,18 +1,18 @@
 @import "tailwindcss";
 
 @theme {
-  /* Industrial / utilitarian palette — navy + safety amber + steel */
+  /* Industrial / utilitarian palette — clear blue + safety orange + steel */
   --color-ink: #0a1826;
-  --color-navy: #0e2a47;
-  --color-navy-700: #123a61;
+  --color-navy: #1c64ab;
+  --color-navy-700: #2477c4;
   --color-steel: #5b7185;
   --color-steel-200: #c7d0d9;
   --color-paper: #f3f4f6;
   --color-line: #d9dde2;
 
-  --color-amber: #f5a300;
-  --color-amber-600: #d98a00;
-  --color-amber-700: #a86a00;
+  --color-amber: #f97316;
+  --color-amber-600: #ea580c;
+  --color-amber-700: #c2410c;
   --color-teal: #1aa6a6;
   --color-sale: #d92d20;
 
